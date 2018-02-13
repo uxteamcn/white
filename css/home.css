@@ -358,7 +358,7 @@ body {
 }
 
 body .wrap-body {
-background-color: #062331;
+background-color: white;
 
 }
 
@@ -488,6 +488,7 @@ footer .wrap-footer {
    color: white;
    font-size: 12px;
    padding: 50px 20px;
+    opacity: 0.5;
 }
 
 footer .wrap-footer h3 {
@@ -649,7 +650,7 @@ a.button.bt2 {
    text-align: center;
    vertical-align: top;
    margin-bottom: 20px;
-
+border-radius: 4px;
   
    
    box-sizing: border-box;
@@ -805,7 +806,7 @@ background-image: linear-gradient(120deg,  #fda085 0%, #f6d365 100%);    opacity
 }
 
 .item-container:hover {
- box-shadow: 1px 1px 40px 3px #062331;
+ 
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -851,7 +852,7 @@ background-image: linear-gradient(120deg,  #fda085 0%, #f6d365 100%);    opacity
    z-index: 999;
    display: inline-block;
    float: right;
-   margin: 10px 10px;
+   margin: 8px 16px;
 }
 
 
@@ -882,14 +883,14 @@ background-image: linear-gradient(120deg,  #fda085 0%, #f6d365 100%);    opacity
    font-size: 12px;
    letter-spacing: 1px;
    text-decoration: none;
-   color: ghostwhite;
+   color: #5f6a72;
    font-weight: 400;
    text-transform: uppercase;
-    opacity: 0.85;
+    
 }
 
 #cssmenu > ul > li:hover > a {
-   color: deepskyblue;
+   color: ghostwhite;
 }
 
 #cssmenu > ul > li.has-sub > a {
@@ -980,7 +981,7 @@ background-image: linear-gradient(120deg,  #fda085 0%, #f6d365 100%);    opacity
    width: 170px;
    font-size: 12px;
    text-decoration: none;
-   color: #dddddd;
+   color: #5f6a72 ;
    font-weight: 400;
    background: #05202c;
 }
@@ -992,7 +993,7 @@ background-image: linear-gradient(120deg,  #fda085 0%, #f6d365 100%);    opacity
 
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-   color: deepskyblue;
+   color: ghostwhite;
 }
 
 #cssmenu ul ul li.has-sub > a:after {
@@ -1082,12 +1083,12 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
       padding-left: 35px;
    }
    #cssmenu ul ul li a {
-      color: deepskyblue;
+      color: #5f6a72;
       background: none;
    }
    #cssmenu ul ul li:hover > a,
    #cssmenu ul ul li.active > a {
-      color: deepskyblue;
+      color: ghostwhite;
    }
    #cssmenu ul ul,
    #cssmenu ul ul ul,
